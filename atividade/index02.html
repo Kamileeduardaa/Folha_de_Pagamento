@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Produto mais barato</title>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Lojinha</h1>
+        <br>
+        <h2>Insira o preço dos produtos para imprimir o mais barato deles</h2>
+    </div>
+    <form action="produtos.php" method="POST">
+        <label>Celular:</label> 
+        <input type="text" name="celular" placeholder="0,00 R$">
+        <br><br>
+        <label >Notebook:</label>
+        <input type="text" name="notebook" placeholder="0,00 R$">
+        <br><br>
+         <label >Computador:</label>
+         <input type="text" name="computador" placeholder="0,00 R$">
+        <br><br>
+       <button type="submit" >Enviar</button>
+</form>
+</body>
+</html>
